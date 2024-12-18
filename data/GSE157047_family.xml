@@ -1,0 +1,2609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+  <Contributor iid="contrib1">
+    <Person><First>Enrique</First><Last>Vazquez de Luis</Last></Person>
+    <Email>quiquevzquez@gmail.com</Email>
+    <Laboratory>Genomics Unit</Laboratory>
+    <Organization>CNIC</Organization>
+    <Address>
+      <Line>Melchor Fernandez Almagro, 3</Line>
+      <City>Madrid</City>
+      <State>Madrid</State>
+      <Zip-Code>28029</Zip-Code>
+      <Country>Spain</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib2">
+    <Organization>GEO</Organization>
+    <Address>
+      <City></City>
+      <Country>USA</Country>
+    </Address>
+  </Contributor>
+
+  <Contributor iid="contrib3">
+    <Person><First>Cristina</First><Last>Delgado-Arévalo</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib4">
+    <Person><First>Marta</First><Last>Calvet-Mirabent</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib5">
+    <Person><First>Ana</First><Last>Triguero-Martinez</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib6">
+    <Person><First>Enrique</First><Last>Vázquez de Luis</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib7">
+    <Person><First>Alberto</First><Last>Benguría</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib8">
+    <Person><First>Diego</First><Last>Calzada-Fraile</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib9">
+    <Person><First>Idelfonso</First><Last>Sánchez-Cerrillo</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib10">
+    <Person><First>Roberto</First><Last>Moreno-Vellisca</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib11">
+    <Person><First>Hortensia</First><Last>de la Fuente</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib12">
+    <Person><First>Almudena</First><Last>Ramiro</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib13">
+    <Person><First>Francisco</First><Last>Sánchez-Madrid</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib14">
+    <Person><First>Santos</First><Last>Castañeda</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib15">
+    <Person><First>Ana</First><Last>Dopazo</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib16">
+    <Person><First>Isidoro</First><Last>Gonzalez-Álvaro</Last></Person>
+  </Contributor>
+
+  <Contributor iid="contrib17">
+    <Person><First>Enrique</First><Last>Martín-Gayo</Last></Person>
+  </Contributor>
+
+  <Database iid="GEO">
+    <Name>Gene Expression Omnibus (GEO)</Name>
+    <Public-ID>GEO</Public-ID>
+    <Organization>NCBI NLM NIH</Organization>
+    <Web-Link>http://www.ncbi.nlm.nih.gov/geo</Web-Link>
+    <Email>geo@ncbi.nlm.nih.gov</Email>
+  </Database>
+
+  <Platform iid="GPL16791">
+    <Status database="GEO">
+      <Submission-Date>2013-03-14</Submission-Date>
+      <Release-Date>2013-03-14</Release-Date>
+      <Last-Update-Date>2019-03-27</Last-Update-Date>
+    </Status>
+    <Title>Illumina HiSeq 2500 (Homo sapiens)</Title>
+    <Accession database="GEO">GPL16791</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Platform iid="GPL20301">
+    <Status database="GEO">
+      <Submission-Date>2015-06-09</Submission-Date>
+      <Release-Date>2015-06-09</Release-Date>
+      <Last-Update-Date>2019-03-21</Last-Update-Date>
+    </Status>
+    <Title>Illumina HiSeq 4000 (Homo sapiens)</Title>
+    <Accession database="GEO">GPL20301</Accession>
+    <Technology>high-throughput sequencing</Technology>
+    <Distribution>virtual</Distribution>
+    <Organism taxid="9606">Homo sapiens</Organism>
+    <Manufacturer></Manufacturer>
+    <Manufacture-Protocol>
+    </Manufacture-Protocol>
+    <Contact-Ref ref="contrib2" />
+  </Platform>
+
+  <Sample iid="GSM4751504">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_ARC255</Title>
+    <Accession database="GEO">GSM4751504</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751504/suppl/GSM4751504_ARC255_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931223" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029405" />
+  </Sample>
+
+  <Sample iid="GSM4751505">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_ARC255</Title>
+    <Accession database="GEO">GSM4751505</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751505/suppl/GSM4751505_ARC255_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931222" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029406" />
+  </Sample>
+
+  <Sample iid="GSM4751506">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_ARC255</Title>
+    <Accession database="GEO">GSM4751506</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751506/suppl/GSM4751506_ARC_255_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931221" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029407" />
+  </Sample>
+
+  <Sample iid="GSM4751507">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_ARC338</Title>
+    <Accession database="GEO">GSM4751507</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751507/suppl/GSM4751507_ARC338_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931220" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029408" />
+  </Sample>
+
+  <Sample iid="GSM4751508">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_ARC338</Title>
+    <Accession database="GEO">GSM4751508</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751508/suppl/GSM4751508_ARC338_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931219" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029409" />
+  </Sample>
+
+  <Sample iid="GSM4751509">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_ARC338</Title>
+    <Accession database="GEO">GSM4751509</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751509/suppl/GSM4751509_ARC_338_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931218" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029410" />
+  </Sample>
+
+  <Sample iid="GSM4751510">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_ARC376</Title>
+    <Accession database="GEO">GSM4751510</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751510/suppl/GSM4751510_ARC376_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931217" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029411" />
+  </Sample>
+
+  <Sample iid="GSM4751511">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_ARC376</Title>
+    <Accession database="GEO">GSM4751511</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751511/suppl/GSM4751511_ARC376_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931216" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029412" />
+  </Sample>
+
+  <Sample iid="GSM4751512">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_ARC376</Title>
+    <Accession database="GEO">GSM4751512</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751512/suppl/GSM4751512_ARC_376_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931215" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029413" />
+  </Sample>
+
+  <Sample iid="GSM4751513">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_ARC382</Title>
+    <Accession database="GEO">GSM4751513</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751513/suppl/GSM4751513_ARC382_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931214" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029414" />
+  </Sample>
+
+  <Sample iid="GSM4751514">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_ARC382</Title>
+    <Accession database="GEO">GSM4751514</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751514/suppl/GSM4751514_ARC382_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931213" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029415" />
+  </Sample>
+
+  <Sample iid="GSM4751515">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_ARC382</Title>
+    <Accession database="GEO">GSM4751515</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751515/suppl/GSM4751515_ARC_382_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931212" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029416" />
+  </Sample>
+
+  <Sample iid="GSM4751516">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_BK114</Title>
+    <Accession database="GEO">GSM4751516</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751516/suppl/GSM4751516_BK114_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931211" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029417" />
+  </Sample>
+
+  <Sample iid="GSM4751517">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_BK114</Title>
+    <Accession database="GEO">GSM4751517</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751517/suppl/GSM4751517_BK114_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931210" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029418" />
+  </Sample>
+
+  <Sample iid="GSM4751518">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_BK114</Title>
+    <Accession database="GEO">GSM4751518</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751518/suppl/GSM4751518_BK114_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931209" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029419" />
+  </Sample>
+
+  <Sample iid="GSM4751519">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_BK32</Title>
+    <Accession database="GEO">GSM4751519</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751519/suppl/GSM4751519_BK32_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931208" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029420" />
+  </Sample>
+
+  <Sample iid="GSM4751520">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_BK32</Title>
+    <Accession database="GEO">GSM4751520</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751520/suppl/GSM4751520_BK32_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931207" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029421" />
+  </Sample>
+
+  <Sample iid="GSM4751521">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_BK32</Title>
+    <Accession database="GEO">GSM4751521</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751521/suppl/GSM4751521_BK32_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931206" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029422" />
+  </Sample>
+
+  <Sample iid="GSM4751522">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_BK42</Title>
+    <Accession database="GEO">GSM4751522</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751522/suppl/GSM4751522_BK42_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931205" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029423" />
+  </Sample>
+
+  <Sample iid="GSM4751523">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_BK42</Title>
+    <Accession database="GEO">GSM4751523</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751523/suppl/GSM4751523_BK42_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931204" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029424" />
+  </Sample>
+
+  <Sample iid="GSM4751524">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd141_BK43</Title>
+    <Accession database="GEO">GSM4751524</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751524/suppl/GSM4751524_BK43_CD141.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931203" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029425" />
+  </Sample>
+
+  <Sample iid="GSM4751525">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Cd1c_BK43</Title>
+    <Accession database="GEO">GSM4751525</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751525/suppl/GSM4751525_BK43_CD1c.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931202" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029426" />
+  </Sample>
+
+  <Sample iid="GSM4751526">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_BK42</Title>
+    <Accession database="GEO">GSM4751526</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751526/suppl/GSM4751526_Rep_BK42_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931201" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029427" />
+  </Sample>
+
+  <Sample iid="GSM4751527">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Blood_Mo_BK43</Title>
+    <Accession database="GEO">GSM4751527</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Blood</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Blood
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Control
+      </Characteristics>
+      <Characteristics tag="library type">
+Stranded
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751527/suppl/GSM4751527_Rep_BK43_MO.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931200" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029428" />
+  </Sample>
+
+  <Sample iid="GSM4751528">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd1c_Condro_LS247</Title>
+    <Accession database="GEO">GSM4751528</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751528/suppl/GSM4751528_S10_Condro_LS247_CD1c_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931199" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029429" />
+  </Sample>
+
+  <Sample iid="GSM4751529">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd1c_Condro_LS248</Title>
+    <Accession database="GEO">GSM4751529</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751529/suppl/GSM4751529_S11_Condro_LS248_CD1c_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931195" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029430" />
+  </Sample>
+
+  <Sample iid="GSM4751530">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd1c_Condro_LS225</Title>
+    <Accession database="GEO">GSM4751530</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751530/suppl/GSM4751530_S12_Condro_LS225_CD1c_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931194" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029431" />
+  </Sample>
+
+  <Sample iid="GSM4751531">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd141_AR_LS237</Title>
+    <Accession database="GEO">GSM4751531</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751531/suppl/GSM4751531_S13_AR_LS237_CD141_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931193" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029432" />
+  </Sample>
+
+  <Sample iid="GSM4751532">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd141_AR_LS238</Title>
+    <Accession database="GEO">GSM4751532</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751532/suppl/GSM4751532_S14_AR_LS238_CD141_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931234" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029433" />
+  </Sample>
+
+  <Sample iid="GSM4751533">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd141_AR_LS241</Title>
+    <Accession database="GEO">GSM4751533</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751533/suppl/GSM4751533_S15_AR_LS241_CD141_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931233" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029434" />
+  </Sample>
+
+  <Sample iid="GSM4751534">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd141_Condro_LS247</Title>
+    <Accession database="GEO">GSM4751534</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751534/suppl/GSM4751534_S16_Condro_LS247_cd141_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931198" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029435" />
+  </Sample>
+
+  <Sample iid="GSM4751535">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd141_Condro_LS248</Title>
+    <Accession database="GEO">GSM4751535</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751535/suppl/GSM4751535_S17_Condro_LS248_CD141_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931197" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029436" />
+  </Sample>
+
+  <Sample iid="GSM4751536">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd141_Condro_LS225</Title>
+    <Accession database="GEO">GSM4751536</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd141+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751536/suppl/GSM4751536_S18_Condro_LS225_CD141_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931196" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029437" />
+  </Sample>
+
+  <Sample iid="GSM4751537">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Mo_AR_LS237</Title>
+    <Accession database="GEO">GSM4751537</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751537/suppl/GSM4751537_S1_AR_LS237_Mo.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931232" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029438" />
+  </Sample>
+
+  <Sample iid="GSM4751538">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Mo_AR_LS238</Title>
+    <Accession database="GEO">GSM4751538</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751538/suppl/GSM4751538_S2_AR_LS238_Mo.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931231" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029439" />
+  </Sample>
+
+  <Sample iid="GSM4751539">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Mo_AR_LS241</Title>
+    <Accession database="GEO">GSM4751539</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751539/suppl/GSM4751539_S3_AR_LS241_Mo.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931230" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029440" />
+  </Sample>
+
+  <Sample iid="GSM4751540">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Mo_Condro_LS247</Title>
+    <Accession database="GEO">GSM4751540</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751540/suppl/GSM4751540_S4_Condro_LS247_Mo.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931229" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029441" />
+  </Sample>
+
+  <Sample iid="GSM4751541">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Mo_Condro_LS248</Title>
+    <Accession database="GEO">GSM4751541</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751541/suppl/GSM4751541_S5_Condro_LS248_Mo.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931228" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029442" />
+  </Sample>
+
+  <Sample iid="GSM4751542">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Mo_Condro_LS225</Title>
+    <Accession database="GEO">GSM4751542</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Monocytes
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+CPPD
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751542/suppl/GSM4751542_S6_Condro_LS225_Mo.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931227" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029443" />
+  </Sample>
+
+  <Sample iid="GSM4751543">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd1c_AR_LS237</Title>
+    <Accession database="GEO">GSM4751543</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751543/suppl/GSM4751543_S7_AR_LS237_CD1c_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931226" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029444" />
+  </Sample>
+
+  <Sample iid="GSM4751544">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd1c_AR_LS238</Title>
+    <Accession database="GEO">GSM4751544</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751544/suppl/GSM4751544_S8_AR_LS238_CD1c_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931225" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029445" />
+  </Sample>
+
+  <Sample iid="GSM4751545">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2022-12-21</Last-Update-Date>
+    </Status>
+    <Title>Sinovial_Cd1c_AR_LS241</Title>
+    <Accession database="GEO">GSM4751545</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Sinovial Fluid</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue">
+Sinovial Fluid
+      </Characteristics>
+      <Characteristics tag="cell type">
+Dendritic Cells Cd1c+
+      </Characteristics>
+      <Characteristics tag="diagnosis">
+Rheumatoid Arthritis
+      </Characteristics>
+      <Characteristics tag="library type">
+Low Input
+      </Characteristics>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA was isolated using RNeasy Micro Kit (Qiagen) and was quantified and purity checked using a NanoDrop ND-1000 (Thermo Scientific, Waltham, MA, USA). RNA integrity was verified using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA).
+Stranded library: 200 ng of total RNA were used with NEBNext Ultra II Directional RNA Library Prep Kit (New England Biolabs) to construct index-tagged cDNA libraries. Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Low Input library: Low Input RNAs were used to amplify the cDNA using the SMART-Seq v4 Ultra Low Input RNA Kit (Clontech-Takara). 1 ng of amplified cDNA was used to generate barcoded libraries using the Nextera XT DNA library preparation kit (Illumina). Libraries were quantified using a Qubit™ dsDNA HS assay with the Qubit fluorometer (Life Technologies, Carlsbad, California). Average library size and the size distribution were determined using a DNA 1000 assay in an Agilent 2100 Bioanalyzer. Libraries were normalized to 10nM using Tris-Cl 10mM, pH8.5 with 0.1% Tween 20.
+Libraries were applied to an Illumina flow cell for cluster generation (SR Cluster Kit cBot) and sequence-by-synthesis single reads of 60 base length using the SBS Kit (Illumina) were generated on the HiSeq 2500 or the HiSeq 4000 following the standard sequencing protocol. Reads were further processed using the bcl2fastq package (Illumina) to split reads according to adapter indexes and produce fastq files. RNA-Seq was performed at the Genomics Unit of the Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid.
+      </Extract-Protocol>
+    </Channel>
+    <Data-Processing>
+Illumina Casava software used for basecalling and bcl2fastq for demultiplexing.
+Sequenced reads quality was evaluated from FastQC.
+Reads were trimmed for Illumina adaptors with cutadapt.
+Reference Genome was indexed from RSem (Li B et al. 2011) and sequence reads were aligned using RSem.
+RNA-Seq data were normalized using Transcripts Per Million (TPM) Trimmed Mean of M values (Robinson MD and A Oshlack 2010).
+Genome_build: Human sequenced genome GRCh38 v91
+Supplementary_files_format_and_content: *.rsem.genes.results.txt: Tab-delimited text files include raw, TPM and RPKM (Reads Per Kilobase Million) values for each sample.
+    </Data-Processing>
+    <Platform-Ref ref="GPL20301" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 4000</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4751nnn/GSM4751545/suppl/GSM4751545_S9_AR_LS241_CD1c_DC.GRCh38v91.rsem.genes.results.txt.gz
+    </Supplementary-Data>
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN15931224" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX9029446" />
+  </Sample>
+
+  <Series iid="GSE157047">
+    <Status database="GEO">
+      <Submission-Date>2020-08-28</Submission-Date>
+      <Release-Date>2022-12-21</Release-Date>
+      <Last-Update-Date>2023-12-13</Last-Update-Date>
+    </Status>
+    <Title>Interplay of NLRC4/NLRP3 inflammasomes and Fc-ˠ-Receptors on CD1c+ DC Associates with Pathogenic IFNˠ+IL17+ T cells and RA Severity</Title>
+    <Accession database="GEO">GSE157047</Accession>
+    <Pubmed-ID>36194479</Pubmed-ID>
+    <Pubmed-ID>37916875</Pubmed-ID>
+    <Summary>
+Deregulated myeloid cells infiltrating to the joints likely contribute to rheumatoid arthritis (RA) pathogenesis through multiple mechanisms, including the secretion of proinflammatory cytokines and the induction of pathogenic adaptive Th17 cells, that mediate joint damage. However, the individual contribution of specific myeloid subsets such as CD1c+ and CD141+ conventional dendritic cells (cDC) to RA development and progression has been poorly studied and remains unclear. In particular, the potential molecular mechanisms specifically affecting CD1c+ cDCs in RA patients and their functional implications have not been characterized. Using RNA-seq, multiparametric flow cytometry and in vitro functional assays, we compared in parallel transcriptional, phenotypical and functional characteristics of monocytes, CD1c+ and CD141+ cDCs from the blood and synovial fluid of RA patients.
+    </Summary>
+    <Overall-Design>
+We performed RNA sequencing using RNA from Monocytes, Dendritic Cd1c+ and Dendritic Cd141 cells obtained from blood/sinovial fluid of Rheumatoid Arthritis versus healthy/CPPD matched controls.
+    </Overall-Design>
+    <Type>Expression profiling by high throughput sequencing</Type>
+    <Contributor-Ref ref="contrib3" position="1" />
+    <Contributor-Ref ref="contrib4" position="2" />
+    <Contributor-Ref ref="contrib5" position="3" />
+    <Contributor-Ref ref="contrib6" position="4" />
+    <Contributor-Ref ref="contrib7" position="5" />
+    <Contributor-Ref ref="contrib8" position="6" />
+    <Contributor-Ref ref="contrib9" position="7" />
+    <Contributor-Ref ref="contrib10" position="8" />
+    <Contributor-Ref ref="contrib11" position="9" />
+    <Contributor-Ref ref="contrib12" position="10" />
+    <Contributor-Ref ref="contrib13" position="11" />
+    <Contributor-Ref ref="contrib14" position="12" />
+    <Contributor-Ref ref="contrib15" position="13" />
+    <Contributor-Ref ref="contrib16" position="14" />
+    <Contributor-Ref ref="contrib17" position="15" />
+    <Contact-Ref ref="contrib1" />
+    <Sample-Ref ref="GSM4751504" />
+    <Sample-Ref ref="GSM4751505" />
+    <Sample-Ref ref="GSM4751506" />
+    <Sample-Ref ref="GSM4751507" />
+    <Sample-Ref ref="GSM4751508" />
+    <Sample-Ref ref="GSM4751509" />
+    <Sample-Ref ref="GSM4751510" />
+    <Sample-Ref ref="GSM4751511" />
+    <Sample-Ref ref="GSM4751512" />
+    <Sample-Ref ref="GSM4751513" />
+    <Sample-Ref ref="GSM4751514" />
+    <Sample-Ref ref="GSM4751515" />
+    <Sample-Ref ref="GSM4751516" />
+    <Sample-Ref ref="GSM4751517" />
+    <Sample-Ref ref="GSM4751518" />
+    <Sample-Ref ref="GSM4751519" />
+    <Sample-Ref ref="GSM4751520" />
+    <Sample-Ref ref="GSM4751521" />
+    <Sample-Ref ref="GSM4751522" />
+    <Sample-Ref ref="GSM4751523" />
+    <Sample-Ref ref="GSM4751524" />
+    <Sample-Ref ref="GSM4751525" />
+    <Sample-Ref ref="GSM4751526" />
+    <Sample-Ref ref="GSM4751527" />
+    <Sample-Ref ref="GSM4751528" />
+    <Sample-Ref ref="GSM4751529" />
+    <Sample-Ref ref="GSM4751530" />
+    <Sample-Ref ref="GSM4751531" />
+    <Sample-Ref ref="GSM4751532" />
+    <Sample-Ref ref="GSM4751533" />
+    <Sample-Ref ref="GSM4751534" />
+    <Sample-Ref ref="GSM4751535" />
+    <Sample-Ref ref="GSM4751536" />
+    <Sample-Ref ref="GSM4751537" />
+    <Sample-Ref ref="GSM4751538" />
+    <Sample-Ref ref="GSM4751539" />
+    <Sample-Ref ref="GSM4751540" />
+    <Sample-Ref ref="GSM4751541" />
+    <Sample-Ref ref="GSM4751542" />
+    <Sample-Ref ref="GSM4751543" />
+    <Sample-Ref ref="GSM4751544" />
+    <Sample-Ref ref="GSM4751545" />
+    <Supplementary-Data type="TAR">
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE157nnn/GSE157047/suppl/GSE157047_RAW.tar
+    </Supplementary-Data>
+    <Relation type="BioProject" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA659983" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRP279196" />
+  </Series>
+
+</MINiML>

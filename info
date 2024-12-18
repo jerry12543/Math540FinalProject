@@ -1,0 +1,2 @@
+FPKM: normalizes the read counts by the length of the gene and the total number of reads (sequencing depth). It’s commonly used for single-end RNA-Seq data.
+TPM: normalizes the read counts by gene length and ensures that the sum of all TPM values in a sample equals 1 million. It’s more consistent and intuitive than FPKM for comparing gene expression across samples.

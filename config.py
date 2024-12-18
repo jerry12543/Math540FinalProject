@@ -1,0 +1,17 @@
+from pathlib import Path
+
+CURRENT_FILE_PATH = Path(__file__).resolve()
+PROJECT_PATH = CURRENT_FILE_PATH.parent
+
+DATAPATH = PROJECT_PATH / 'data'
+
+SERIESMATRIXPATHS = [
+    DATAPATH / 'GSE157047-GPL16791_series_matrix.txt',
+    DATAPATH / 'GSE157047-GPL20301_series_matrix.txt'
+]
+
+RAWCOUNTSPATH = DATAPATH / 'GSE157047_raw_counts_GRCh38.p13_NCBI.tsv'
+TPMCOUNTSPATH = DATAPATH / 'GSE157047_norm_counts_TPM_GRCh38.p13_NCBI.tsv'
+ANNOTATIONSPATH = DATAPATH / 'Human.GRCh38.p13.annot.tsv'
+
+HEATMAPSPATH = PROJECT_PATH / "heatmaps/"
